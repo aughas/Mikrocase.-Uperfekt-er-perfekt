@@ -135,7 +135,7 @@ import "../styles/tobii.min.css";
 				<p>Karrieren begynder også så småt også at gå den rette vej: Pierre er begyndt at sælge fotokunst på nettet, og har udgivet sin første foto-bog med titlen “Lidt i fem,” som er en fotografisk odyssé om at slæbe en brandert hjem i de tidlige morgentimer. I forbindelse med udgivelsen af bogen, har han en udstilling på vej i det Kongelige Biblioteks fotoudstilling.</p>
 				<p>Som Pierre forklarer det: <span class="italic">“Nu kan jeg leve livet igen. Jeg føler mig frisk. Jeg føler mig fri. Jeg føler mig genfødt.”</span></p>			
 				<div>
-					<a href="lidtifem-pierre-falcke.jpg" class="lightbox" alt="">
+					<a href="lidtifem-pierre-falcke.jpg" class="lightbox">
 						<Image src={lidtifem} alt="" class="my-0" />
 						<figcaption>Lidt i fem - ny bog af Pierre Falcke</figcaption>
 					</a>			
@@ -143,8 +143,18 @@ import "../styles/tobii.min.css";
 			</div>
 		</section>
 	</article>
+	<section id="progressbar" class="pt-1">
+		<div class="progress-bar h-4 fixed w-full bg-gradient-to-r from-pink-500 to-yellow-300 left-0 origin-top-left top-0 right-0"></div>
+	</section>
 </MainLayout>
 <script is:inline src="/tobii.min.js"></script>
 <script defer>
 	const tobii = new Tobii(); 
+</script>
+<script>
+	import { scroll, animate } from 'motion';
+
+// Attach the scroll-based animation
+scroll(animate(".progress-bar", { scaleX: [0, 1] }));
+
 </script>
