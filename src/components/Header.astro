@@ -1,2 +1,22 @@
 ---
 ---
+<div x-data="{ showmenu: false }" class="p-4 fixed top-0 w-full z-20 fade-in">
+    <div id="navbar" class="flex flex-row justify-between">
+
+        <button id="burgermenu" class="pt-5 pr-4 hover:opacity-75" x-on:click="showmenu = !showmenu">
+            Menu
+        </button>
+    </div>
+    <nav id="mobilmenu" class="fixed left-8 flex flex-col content-center pt-2" 
+        x-show="showmenu" x-transition x-on:click="showmenu = false" x-on:click.outside="showmenu = false">
+        <ul class="space-y-2">
+            <li class="hover:opacity-75"><a href="#pierre">Pierre Falcke</a></li>
+            <li class="hover:opacity-75"><a href="#hvaderstockfotos">Om stock-fotos</a></li>
+            <li class="hover:opacity-75"><a href="#pierresberoemmelse">Pierres berømmelse</a></li>
+            <li class="hover:opacity-75"><a href="#enskillevej">En skillevej</a></li>
+            <li class="hover:opacity-75"><a href="#fotoeksperimenter">Fotoeksperimenter</a></li>
+            <li class="hover:opacity-75"><a href="#nybegyndelse">Ny begyndelse</a></li>
+            <li class="hover:opacity-75"><a href="#galleri">Galleri</a></li>
+        </ul>
+    </nav>
+</div>

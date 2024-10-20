@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #f0f;
-      }
-    </style>
-  </defs>
-  <rect class="cls-1" x="53.24" y="-14.84" width="20.51" height="157.68" transform="translate(-26.66 63.65) rotate(-45)"/>
-  <rect class="cls-1" x="33.49" y="5.89" width="19.23" height="19.23" transform="translate(1.66 35.02) rotate(-45)"/>
-  <rect class="cls-1" x="5.39" y="33.99" width="19.23" height="19.23" transform="translate(-26.44 23.38) rotate(-45)"/>
-  <rect class="cls-1" x="5.39" y="61.18" width="19.23" height="19.23" transform="translate(-45.67 31.34) rotate(-45)"/>
-  <rect class="cls-1" x="5.39" y="88.38" width="19.23" height="19.23" transform="translate(-64.9 39.31) rotate(-45)"/>
-  <rect class="cls-1" x="60.68" y="5.89" width="19.23" height="19.23" transform="translate(9.63 54.25) rotate(-45)"/>
-  <rect class="cls-1" x="87.88" y="5.89" width="19.23" height="19.23" transform="translate(17.59 73.48) rotate(-45)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63.099" height="65.269" viewBox="0 0 63.099 65.269"><defs><linearGradient id="a" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#ff52c7"/><stop offset="1" stop-color="#ffe23d"/></linearGradient></defs><path d="M6.064,21.49c2.429.346,5.047,2.638,5.99,3.581V3.931a4.022,4.022,0,0,1,8.043,0V16.111c0,1.576,1.637,1.779,1.848.207.434-3.225,5.065-3.653,5.415.8.086,1.1,1.46,1.317,1.741.054.655-2.9,5.029-2.932,5.545,1.524.133,1.164,1.6,1.4,1.705.068.1-1.347.565-1.878,1.22-1.878,2.208,0,4.643,4.06,4.643,8.867,0,8.636-6.032,8.658-6.032,22.5H16.075C15.407,40.33,9.114,33.315,3.466,27.665A4.555,4.555,0,0,1,2,24.52C2,22.65,3.526,21.126,6.064,21.49Z" transform="translate(-0.27 24.994) rotate(-34)" stroke="#f5fffa" stroke-width="2" fill="url(#a)"/></svg>
